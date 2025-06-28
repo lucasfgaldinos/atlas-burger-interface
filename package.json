@@ -1,0 +1,53 @@
+{
+	"name": "atlas-burger-interface",
+	"author": {
+		"name": "Lucas Galdino",
+		"url": "https://github.com/lucasfgaldinos"
+	},
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.0",
+		"@hookform/resolvers": "^5.0.1",
+		"@mui/material": "^7.1.2",
+		"@radix-ui/react-dialog": "^1.1.14",
+		"@radix-ui/react-label": "^2.1.6",
+		"@radix-ui/react-slot": "^1.2.3",
+		"@stripe/react-stripe-js": "^3.7.0",
+		"@stripe/stripe-js": "^7.3.1",
+		"@tailwindcss/vite": "^4.1.5",
+		"axios": "^1.9.0",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"embla-carousel-react": "^8.6.0",
+		"lucide-react": "^0.513.0",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0",
+		"react-hook-form": "^7.56.2",
+		"react-multi-carousel": "^2.8.6",
+		"react-router-dom": "^7.6.0",
+		"react-select": "^5.10.1",
+		"react-toastify": "^11.0.5",
+		"tailwind-merge": "^3.2.0",
+		"tailwindcss": "^4.1.5",
+		"zod": "^3.25.67"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.15.13",
+		"@types/react": "^19.1.2",
+		"@types/react-dom": "^19.1.2",
+		"@vitejs/plugin-react": "^4.4.1",
+		"tw-animate-css": "^1.2.9",
+		"typescript": "~5.8.3",
+		"typescript-eslint": "^8.30.1",
+		"vite": "^6.3.5"
+	}
+}
